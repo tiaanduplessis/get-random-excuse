@@ -1,0 +1,22 @@
+{
+  "name": "get-random-excuse",
+  "version": "1.0.0",
+  "description": "Get a random excuse",
+  "main": "src/index.js",
+  "repository": "https://github.com/tiaanduplessis/get-random-excuse",
+  "author": "Tiaan du Plessis",
+  "license": "MIT",
+  "scripts": {
+    "lint": "standard --fix",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^23.5.0",
+    "standard": "^11.0.1"
+  },
+  "standard": {
+    "env": {
+      "jest": true
+    }
+  }
+}
